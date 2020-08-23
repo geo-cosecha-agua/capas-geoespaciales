@@ -1,4 +1,4 @@
-# Conversión de capas geoespaciales del Portal Geoespacial del Proyecto Cosecha de Agua en Nicaragua
+# Conversión de capas del Portal Geoespacial del Proyecto Cosecha de Agua en Nicaragua
 ## Descripción general
 Este repositorio contiene la documentación y el código fuente de un programa desarrollado para la conversión, entre formatos geoespaciales y sistemas espaciales de referencia (SRS, *Spatial Reference System*), de un conjunto de capas utilizadas en el [Portal Geoespacial del Proyecto Cosecha de Agua en Nicaragua](https://geo-cosecha-agua.github.io/).
 
@@ -10,10 +10,10 @@ Los comandos y programas utilizados en este repositorio fueron probados en el si
 
 ## Entradas, procesamiento y salidas
 ### Entradas
-- Directorio ```datos-originales``` con archivos de las capas en sus formatos originales.
+- Directorio ```datos-originales``` con archivos de las capas geoespaciales en sus formatos originales.
 
 ### Procesamiento
-- Ejecución del programa ```convertir-capas-geoespaciales.sh```
+- Ejecución del programa ```convertir-capas-cosecha-agua.sh```
 
 ### Salidas
 - Archivos con capas geoespaciales convertidas. Se graban en el directorio principal del repositorio.
@@ -22,14 +22,14 @@ Los comandos y programas utilizados en este repositorio fueron probados en el si
 Los siguientes comandos deben ejecutarse en la línea de comandos del sistema operativo. Se recomienda utilizar la interfaz de línea de comandos de Anaconda. Se asume que el ambiente Conda ha sido creado de la manera que se muestra en la sección siguiente a esta.
 ```shell
 # Activación del ambiente Conda
-$ conda activate conversion-capas-geoespaciales
+$ conda activate conversion-capas-cosecha-agua
 
 # Clonación del repositorio
-$ git clone https://github.com/geo-cosecha-agua/conversion-capas-geoespaciales.git
-$ cd conversion-capas-geoespaciales
+$ git clone https://github.com/geo-cosecha-agua/conversion-capas-cosecha-agua.git
+$ cd conversion-capas-cosecha-agua
 
 # Ejecución del programa
-$ ./convertir-capas-geoespaciales.sh
+$ ./convertir-capas-cosecha-agua.sh
 
 # Actualización del repositorio y de los archivos GeoJSON generados
 $ git add .
@@ -47,10 +47,10 @@ El ambiente Conda solamente debe crearse una vez. Luego puede seguir usándose d
 $ conda update -n base -c defaults conda
 
 # Creación del ambiente
-$ conda create -n conversion-capas-geoespaciales
+$ conda create -n conversion-capas-cosecha-agua
 
 # Activación del ambiente
-$ conda activate conversion-capas-geoespaciales
+$ conda activate conversion-capas-cosecha-agua
 
 # Instalación de paquetes
 # GDAL, QGIS
