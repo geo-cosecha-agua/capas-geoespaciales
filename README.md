@@ -33,7 +33,7 @@ $ ./cosecha-agua-convertir-capas.sh
 
 # Actualización del repositorio y de los archivos GeoJSON generados
 $ git add .
-$ git commit -m "Generar nuevos archivos GeoJSON"
+$ git commit -m "Convertir capas"
 $ git push
 
 # Desactivación del ambiente Conda
