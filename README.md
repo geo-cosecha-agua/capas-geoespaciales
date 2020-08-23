@@ -13,7 +13,7 @@ Los comandos y programas utilizados en este repositorio fueron probados en el si
 - Directorio ```datos-originales``` con archivos de las capas geoespaciales en sus formatos originales.
 
 ### Procesamiento
-- Ejecución del programa ```convertir-capas-cosecha-agua.sh```
+- Ejecución del programa ```cosecha-agua-convertir-capas.sh```
 
 ### Salidas
 - Archivos con capas geoespaciales convertidas. Se graban en el directorio principal del repositorio.
@@ -22,14 +22,14 @@ Los comandos y programas utilizados en este repositorio fueron probados en el si
 Los siguientes comandos deben ejecutarse en la línea de comandos del sistema operativo. Se recomienda utilizar la interfaz de línea de comandos de Anaconda. Se asume que el ambiente Conda ha sido creado de la manera que se muestra en la sección siguiente a esta.
 ```shell
 # Activación del ambiente Conda
-$ conda activate conversion-capas-cosecha-agua
+$ conda activate cosecha-agua-conversion-capas
 
 # Clonación del repositorio
-$ git clone https://github.com/geo-cosecha-agua/conversion-capas-cosecha-agua.git
-$ cd conversion-capas-cosecha-agua
+$ git clone https://github.com/geo-cosecha-agua/cosecha-agua-conversion-capas.git
+$ cd cosecha-agua-conversion-capas
 
 # Ejecución del programa
-$ ./convertir-capas-cosecha-agua.sh
+$ ./cosecha-agua-convertir-capas.sh
 
 # Actualización del repositorio y de los archivos GeoJSON generados
 $ git add .
@@ -47,10 +47,10 @@ El ambiente Conda solamente debe crearse una vez. Luego puede seguir usándose d
 $ conda update -n base -c defaults conda
 
 # Creación del ambiente
-$ conda create -n conversion-capas-cosecha-agua
+$ conda create -n cosecha-agua-conversion-capas
 
 # Activación del ambiente
-$ conda activate conversion-capas-cosecha-agua
+$ conda activate cosecha-agua-conversion-capas
 
 # Instalación de paquetes
 # GDAL, QGIS
