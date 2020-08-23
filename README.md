@@ -2,7 +2,7 @@
 ## Descripción general
 Este repositorio contiene la documentación y el código fuente de un programa desarrollado para la conversión, entre formatos geoespaciales y sistemas espaciales de referencia (SRS, *Spatial Reference System*), de un conjunto de capas utilizadas en el [Portal Geoespacial del Proyecto Cosecha de Agua en Nicaragua](https://geo-cosecha-agua.github.io/).
 
-El programa está implementado en el lenguaje de comandos [Bash](https://www.gnu.org/software/bash/) y utiliza la biblioteca [GDAL](https://gdal.org/) para realizar las conversiones entre los formatos geoespaciales (ej. de Shapefile a GeoJSON) y entre los SRS (ej. de UTM 16N a WGS84). Para facilitar su uso y mantenimiento, el programa se ejecuta en un ambiente [Conda](https://docs.conda.io/).
+El programa está implementado en el lenguaje de comandos [Bash](https://www.gnu.org/software/bash/) y utiliza la biblioteca [GDAL](https://gdal.org/) para realizar las conversiones entre formatos geoespaciales (ej. de Shapefile a GeoJSON) y entre SRS (ej. de UTM 16N a WGS84). Para facilitar su uso y mantenimiento, el programa se ejecuta en un ambiente [Conda](https://docs.conda.io/).
 
 En el resto de este documento, se describen las entradas, procesamiento y salidas del programa; y se detallan los comandos necesarios para su ejecución. Se incluye también una sección con los comandos necesarios para crear el ambiente Conda en el que se ejecuta el programa.
 
