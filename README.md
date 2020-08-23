@@ -13,7 +13,7 @@ Los comandos y programas utilizados en este repositorio fueron probados en el si
 - Directorio ```datos-originales``` con archivos de las capas geoespaciales en sus formatos originales.
 
 ### Procesamiento
-- Ejecución del programa ```cosecha-agua-convertir-capas.sh```
+- Ejecución del programa ```cosecha-agua-conversion-capas.sh```
 
 ### Salidas
 - Archivos con capas geoespaciales convertidas. Se graban en el directorio principal del repositorio.
@@ -29,7 +29,7 @@ $ git clone https://github.com/geo-cosecha-agua/cosecha-agua-conversion-capas.gi
 $ cd cosecha-agua-conversion-capas
 
 # Ejecución del programa
-$ ./cosecha-agua-convertir-capas.sh
+$ ./cosecha-agua-conversion-capas.sh
 
 # Actualización del repositorio y de los archivos GeoJSON generados
 $ git add .
