@@ -31,8 +31,11 @@ $ cd geo-cosecha-agua-conversion-capas
 # Ejecución del programa
 $ ./geo-cosecha-agua-conversion-capas.sh
 
+# Compresión de los resultados (se asume que son archivos GeoJSON)
+$ zip geojson.zip *.geojson
+
 # Actualización del repositorio y de los archivos GeoJSON generados
-$ git add .
+$ git add *.zip
 $ git commit -m "Convertir capas"
 $ git push
 
