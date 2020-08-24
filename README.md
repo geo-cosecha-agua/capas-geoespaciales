@@ -54,7 +54,6 @@ $ conda activate geo-cosecha-agua-conversion-capas
 
 # Instalación de paquetes
 $ conda install -c conda-forge gdal
-$ conda install -c conda-forge qgis
 
 # Desactivación del ambiente
 $ conda deactivate
