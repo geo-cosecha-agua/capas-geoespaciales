@@ -17,6 +17,7 @@ echo “Municipios de Nicaragua”
 ogr2ogr \
   ni-municipios-ineter-2016-wgs84.geojson \
   /vsizip/datos-originales/2016_INETER_DPA_Municipios.zip/2016_INETER_DPA_Municipios.shp \
+  -where "muni='Ciudad Antigua' OR muni='Mosonte' OR muni='Totogalpa' OR muni='Telpaneca' OR muni='Palacagüina' OR muni='Yalagüina' OR muni='Somoto' OR muni='San Lucas' OR muni='Pueblo Nuevo' OR muni='Condega'" \
   -f "GeoJSON" \
   -progress \
   -nln ni-municipios-ineter-2016-wgs84 \
@@ -26,6 +27,7 @@ echo “Comunidades de Nicaragua”
 ogr2ogr \
   ni-comunidades-ineter-2016-wgs84.geojson \
   /vsizip/datos-originales/LIM_COM_INETER_2016_Code.zip/LIM_COM_INETER_2016_Code.shp \
+  -where "municipio='Ciudad Antigua' OR municipio='Mozonte' OR municipio='Totogalpa' OR municipio='Telpaneca' OR municipio='Palacaguina' OR municipio='Yalaguina' OR municipio='Somoto' OR municipio='San Lucas' OR municipio='Pueblo Nuevo' OR municipio='Condega'" \
   -f "GeoJSON" \
   -progress \
   -nln ni-comunidades-ineter-2016-wgs84 \
