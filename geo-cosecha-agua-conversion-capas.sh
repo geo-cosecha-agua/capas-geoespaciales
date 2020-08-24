@@ -13,7 +13,7 @@ ogr2ogr \
   -nln ni-limite_int-ineter-2016-wgs84 \
   -s_srs EPSG:32616 -t_srs EPSG:4326 \
   -makevalid
-echo “Municipios de Nicaragua”
+echo “Municipios de Nicaragua que participan en el Proyecto Cosecha de Agua”
 ogr2ogr \
   ni-municipios-ineter-2016-wgs84.geojson \
   /vsizip/datos-originales/2016_INETER_DPA_Municipios.zip/2016_INETER_DPA_Municipios.shp \
@@ -23,7 +23,7 @@ ogr2ogr \
   -nln ni-municipios-ineter-2016-wgs84 \
   -s_srs EPSG:32616 -t_srs EPSG:4326 \
   -makevalid
-echo “Comunidades de Nicaragua”
+echo “Comunidades de Nicaragua que participan en el Proyecto Cosecha de Agua”
 ogr2ogr \
   ni-comunidades-ineter-2016-wgs84.geojson \
   /vsizip/datos-originales/LIM_COM_INETER_2016_Code.zip/LIM_COM_INETER_2016_Code.shp \
