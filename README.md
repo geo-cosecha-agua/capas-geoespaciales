@@ -33,7 +33,7 @@ $ ./geo-cosecha-agua-conversion-capas.sh
 
 # Compresión de los resultados (se asume que son archivos GeoJSON)
 # Este comando puede usarse si los archivos son muy grandes para subirse a GitHub
-# Es mejor subir solo los GeoJSON o solo el ZIP (no ambos)
+# Es mejor subir solo los GeoJSON o solo el ZIP (no ambos), para evitar duplicidad y confusión
 # $ zip geojson.zip *.geojson
 
 # Actualización del repositorio y de los archivos GeoJSON generados
